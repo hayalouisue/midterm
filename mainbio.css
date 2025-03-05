@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #594F4F;
+    color: white;
+}
+
+/* Wrapper for content */
+div {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px;
+
+}
+
+/* Header styles */
+h1 {
+    font-size: 2.5em;
+    color: white;  
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2em;
+    color: white;  /* Dark grayish blue */
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+/* Paragraph styles with box around each one */
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #547980;  
+    border-left: 5px solid #9DE0AD ;  
+    border-radius: 5px;  
+    text-align: justify;
+}
+
+/* Styling for super-script references */
+sup {
+    font-size: 0.8em;
+    vertical-align: super;
+    color: white;
+}
+
+/* Horizontal line styles */
+hr {
+    border: 1px solid white;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.go-home-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* Go Top Button Styling */
+.go-top-btn {
+    position: fixed;
+    bottom: 20px;   /* Position it 20px from the bottom */
+    right: 20px;    /* Position it 20px from the right */
+    background-color: #333; /* Green background */
+    color: white;   /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;  /* Rounded corners */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .go-top-btn:hover {
+    background-color: #333; /
+  }
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+  

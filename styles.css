@@ -1,0 +1,54 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #594f4f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Link Container */
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #547980;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+/* Link Styling */
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 12px 24px;
+    border: 2px solid #9DE0AD;
+    border-radius: 80px;
+    transition: all 0.3s ease-in-out;
+    border-width: 5px;
+}
+
+/* Hover Effects */
+.links a:hover {
+    background: white;
+    color: #594F4F;
+    transform: scale(1.1);
+}
